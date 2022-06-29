@@ -24,7 +24,7 @@ const internSchema = new mongoose.Schema ({
 
     collegeId : {
         type: ObjectId,
-        ref : collegeModel
+        ref : 'collegeModel'
     },
 
     isDeleted : {
